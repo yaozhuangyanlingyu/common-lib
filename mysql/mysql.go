@@ -5,6 +5,7 @@ import(
 	"log"
 	"github.com/jinzhu/gorm"
 	"github.com/astaxie/beego/config"
+	_ "github.com/jinzhu/gorm/dialects/mysql"
 )
 
 // conn数据库连接
